@@ -5,7 +5,7 @@ Maintainer: NyarthTheProtagoinst
 Architecture: iphoneos-arm
 Filename: ./debs/com.iphonecake.appcake2.deb
 Size: 4595808
-MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
+MD5sum: 252c83feff126e6696e5fd7dce87580c
 Description: This is a sample new package.
 Name: AppCake 2 
 Author: NyarthTheProtagoinst
