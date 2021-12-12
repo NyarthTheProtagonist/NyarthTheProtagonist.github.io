@@ -3,7 +3,7 @@ Version: 4.59
 Section: Tweaks
 Maintainer: NyarthTheProtagoinst
 Architecture: iphoneos-arm
-Filename: ./debs/com.iphonecake.appcake2.ios6.deb
+Filename: ./debs/com.iphonecake.appcake2.deb
 Size: 4595808
 MD5sum: 252c83feff126e6696e5fd7dce87580c
 Description: This is a sample new package.
@@ -13,7 +13,7 @@ Author: NyarthTheProtagoinst
 Package: YewTube
 Version: 1.0.1
 Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
+Maintainer: Electimon
 Depends: firmware (<7.0)
 Architecture: iphoneos-arm
 Filename: ./debs/YewTube-v1.0.1.deb

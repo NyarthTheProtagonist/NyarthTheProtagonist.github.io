@@ -13,7 +13,7 @@ Author: NyarthTheProtagoinst
 Package: YewTube
 Version: 1.0.1
 Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
+Maintainer: Electimon
 Depends: firmware (<7.0)
 Architecture: iphoneos-arm
 Filename: ./debs/YewTube-v1.0.1.deb
@@ -22,5 +22,4 @@ MD5sum: f230b8dbcaf21cc26e53f06fa2a9e396
 Description: This is a sample old package. Firmware should be lower than 7.0
 Name: YewTube
 Author: Electimon
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
 
