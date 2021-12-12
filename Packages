@@ -3,7 +3,7 @@ Version: 4.59
 Section: Tweaks
 Maintainer: NyarthTheProtagoinst
 Architecture: iphoneos-arm
-Filename: ./debs/com.iphonecake.appcake2.deb
+Filename: ./debs/com.iphonecake.appcake2.ios6.deb
 Size: 4595808
 MD5sum: 252c83feff126e6696e5fd7dce87580c
 Description: This is a sample new package.
