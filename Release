@@ -1,8 +1,8 @@
-Origin: kitten's Repo
-Label: kitten's Repo
+Origin: Repo Manager Deluxe Default Origin
+Label: Repo Manager Deluxe Default Name
 Suite: stable
 Version: 1.0
-Codename: ios
+Codename: iospackagemanagerdeluxe
 Architectures: iphoneos-arm
 Components: main
-Description: no
+Description: Made with Repo Manager Deluxe
