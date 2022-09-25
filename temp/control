@@ -1,11 +1,11 @@
-Package: com.linusyang.ytbnoad
-Section: Tweaks
-Installed-Size: 344
-Maintainer: Linus Yang
+Package: org.mtmdev.YewTube
+Name: YewTube
+Version: 1.0.1
+Depends: firmware (>= 5.0), appsync
 Architecture: iphoneos-arm
-Version: 0.1
-Depends: mobilesubstrate
-Conflicts: me.alfhaily.adblockforyoutube
-Description: remove ads in Youtube app
-Name: YoutubeNoAd
-Author: Linus Yang
+Description: A YouTube client made in Objective-C utilizing the power of Invidious.
+Homepage: http://mtmdev.org
+Maintainer: Electimon <electimon@gmail.com>
+Author: Electimon <electimon@gmail.com>
+Icon: http://2pwn.tk/dev/icons/YewTube.png
+Section: Internet

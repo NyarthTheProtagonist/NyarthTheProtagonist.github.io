@@ -1,0 +1,105 @@
+Package: com.iphonecake.appcake2.ios6
+Section: Utilities
+Maintainer: hotsjf <iphonecake@gmail.com>
+Architecture: iphoneos-arm
+Version: 4.59
+Pre-Depends: firmware (>= 6.0) | firware (<= 7.0)
+Size: 4595982
+Description: **All NEW AppCake 4.0! Clean UI with enhanced Settings, download cracked apps from the largest Cracked Store. Come with iTunes Sync, Metadata Removal, Update check, AirDrop Sharing and more. *** Require AppSync to be installed ***
+Name: AppCake for iOS6
+Author: hotsjf <iphonecake@gmail.com>
+Website: http://iphonecake.com/forum/
+Icon: file:///Applications/iPhoneCake.app/AppIcon57x57.png
+Depiction: http://iphonecake.com/mobileapp/depiction/ios6.html
+Filename: debs/com.iphonecake.appcake2.ios6.deb
+Depiction: https://imnotsatan.github.io/depictions/com.iphonecake.appcake2.ios6.html
+Icon: https://imnotsatan.github.io/icons/com.iphonecake.appcake2.ios6.png
+Size: 4595808
+MD5sum: 252c83feff126e6696e5fd7dce87580c
+SHA1: 4ef64c8287a625091f305006273f61cdac3b6b17
+SHA256: 2f1ded9c9dd46b6b84af9953f0cc7edd833a619c7f2f56efd715dfbf94c6f086
+SHA521: 5a27e0c6f255ec9a1deb42d17467670eb556021a03870e0e04820e91177d14f1f3ea785e360e0365415507ef55ca6043de3ca9da353e7debfed9920cae785a06
+
+Package: com.linusyang.ytbnoad
+Section: Tweaks
+Installed-Size: 344
+Maintainer: Linus Yang
+Architecture: iphoneos-arm
+Version: 0.1
+Depends: mobilesubstrate
+Conflicts: me.alfhaily.adblockforyoutube
+Description: remove ads in Youtube app
+Name: YoutubeNoAd
+Author: Linus Yang
+Filename: debs/com.linusyang.ytbnoad_0.1_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.linusyang.ytbnoad.html
+Icon: https://imnotsatan.github.io/icons/com.linusyang.ytbnoad.png
+Size: 50654
+MD5sum: 39e43deaa545fc126991b2fe2343d4c4
+SHA1: 848ecf5a0343fe1ac5e4b1cda292d2485938f2a5
+SHA256: 58801323e9993fa855e063a887ed63f4b84ca966a6ca83459b3d5ca4e342843f
+SHA521: 5f4662d3ec533bc23fb15b77fe706d1d1e3d43039515523b21524c11946970062af5bedd415dbf505c86807ed1722a286c001e3b31a138ed94bacfc5a05634a2
+
+Package: uk.invoxiplaygames.googlesigninfix
+Name: GSignInFix
+Depends: mobilesubstrate, firmware (>= 6.0)
+Architecture: iphoneos-arm
+Description: Fixes Google-owned app login on iOS 6.
+Maintainer: InvoxiPlayGames
+Author: InvoxiPlayGames
+Depiction: http://cydia.invoxiplaygames.uk/dp/gsigninfix.php
+Section: Tweaks
+Version: 1.0.1
+Installed-Size: 52
+Filename: debs/googlesigninfix-1.0.1.deb
+Depiction: https://imnotsatan.github.io/depictions/uk.invoxiplaygames.googlesigninfix.html
+Icon: https://imnotsatan.github.io/icons/uk.invoxiplaygames.googlesigninfix.png
+Size: 3432
+MD5sum: 9112f892fbaaa0b307151cfd1bad5276
+SHA1: d6e5506ea296892e80923293098dd792bc58834c
+SHA256: cb174fc33fbf70d07a99eba5338dd75114ef1118b5fb2f8c015093784bb7edfd
+SHA521: 36406620e8a79ee3ec71f801a214b50f365c7d6e55f76e45cf5e368bf174f43faed1be0d93f678fcd942965d2bc6eff2dac4ef76ce896e2b0f862e9553af5b17
+
+Package: uk.invoxiplaygames.tubefixer
+Name: TubeFixer for iOS
+Architecture: iphoneos-arm
+Description: Package to fix YouTube on iOS 3-5
+Depends: mobilesubstrate, firmware (>= 2.0)
+Pre-Depends: dpkg (>= 1.13.25-5)
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Homepage: http://tubefixer.ovh/
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Section: Tweaks
+Depiction: http://cydia.invoxiplaygames.uk/dp/tubefixer.php
+Icon: file:///Library/Application%20Support/uk.invoxiplaygames.tubefixer/tubefixericon.png
+Version: 2.0-152+debug
+Installed-Size: 136
+Filename: debs/tubefixer-2.0-152-RC1.deb
+Depiction: https://imnotsatan.github.io/depictions/uk.invoxiplaygames.tubefixer.html
+Icon: https://imnotsatan.github.io/icons/uk.invoxiplaygames.tubefixer.png
+Size: 27972
+MD5sum: 3099d5610e8e73426a947fcf646fffcf
+SHA1: 8971219e0b2c4dee1632631a72507d387689deb6
+SHA256: 7912801feec7ec8062a39a0187976647da05cfe16026147a65ec2ecd58dd7c00
+SHA521: 85cb5023659c2e630684df0d47e24d90014a43e2622823626275f684105682ac208052d4a0068ca1b84a419e3dbd29e5696fbbb0b263ebfd2d698f118e95f101
+
+Package: org.mtmdev.YewTube
+Name: YewTube
+Version: 1.0.1
+Depends: firmware (>= 5.0), appsync
+Architecture: iphoneos-arm
+Description: A YouTube client made in Objective-C utilizing the power of Invidious.
+Homepage: http://mtmdev.org
+Maintainer: Electimon <electimon@gmail.com>
+Author: Electimon <electimon@gmail.com>
+Icon: http://2pwn.tk/dev/icons/YewTube.png
+Section: Internet
+Filename: debs/YewTube-v1.0.1.deb
+Depiction: https://imnotsatan.github.io/depictions/org.mtmdev.YewTube.html
+Icon: https://imnotsatan.github.io/icons/org.mtmdev.YewTube.png
+Size: 538
+MD5sum: f230b8dbcaf21cc26e53f06fa2a9e396
+SHA1: 7233242fbd28ebd5f249560511ce58970a9a8900
+SHA256: 6d43708cb9880cefbfa9cffc4705f4ea9631d7d93311d73202ee0f406674c7c9
+SHA521: 19b577652b92713da3716de28702dbb4905c4615fb9b32e9659d7066771f301d5e09cb0cee8f8ddd8e26279d6a7ecad52bf16c6058c8bc005d8fda7dbb07063d
+
