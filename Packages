@@ -60,6 +60,27 @@ SHA1: d6e5506ea296892e80923293098dd792bc58834c
 SHA256: cb174fc33fbf70d07a99eba5338dd75114ef1118b5fb2f8c015093784bb7edfd
 SHA521: 36406620e8a79ee3ec71f801a214b50f365c7d6e55f76e45cf5e368bf174f43faed1be0d93f678fcd942965d2bc6eff2dac4ef76ce896e2b0f862e9553af5b17
 
+Package: mobilesubstrate
+Architecture: iphoneos-arm
+Name: Mobile Substrate
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+Depends: com.saurik.substrate.safemode
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110)
+Priority: optional
+Version: 0.9.3998
+Description: powerful code insertion platform
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Section: System
+Filename: debs/mobilesubstrate.deb
+Depiction: https://imnotsatan.github.io/depictions/mobilesubstrate.html
+Icon: https://imnotsatan.github.io/icons/mobilesubstrate.png
+Size: 99738
+MD5sum: 347721bf79af7f2858c1e6a7368540fe
+SHA1: 1359c0ef80e5a33f7c6c3bfb18b067ba3991b5bb
+SHA256: ef121cdd3de50318d3d4ba7c2cd9fbb259da20eeeda21983f57956d80a2c00c0
+SHA521: 524a8e81ed754a417c62178a2971be3dee4cb2c759b135c29e0ade2e4b6e357300f2e096f66b1c1804a61c5d843dc45e02bd2412c70e9a88c5e67f7ae0cb6469
+
 Package: uk.invoxiplaygames.tubefixer
 Name: TubeFixer for iOS
 Architecture: iphoneos-arm
@@ -83,26 +104,6 @@ SHA1: 8971219e0b2c4dee1632631a72507d387689deb6
 SHA256: 7912801feec7ec8062a39a0187976647da05cfe16026147a65ec2ecd58dd7c00
 SHA521: 85cb5023659c2e630684df0d47e24d90014a43e2622823626275f684105682ac208052d4a0068ca1b84a419e3dbd29e5696fbbb0b263ebfd2d698f118e95f101
 
-Package: org.mtmdev.YewTube
-Name: YewTube
-Version: 1.0.1
-Depends: firmware (>= 5.0), appsync
-Architecture: iphoneos-arm
-Description: A YouTube client made in Objective-C utilizing the power of Invidious.
-Homepage: http://mtmdev.org
-Maintainer: Electimon <electimon@gmail.com>
-Author: Electimon <electimon@gmail.com>
-Icon: http://2pwn.tk/dev/icons/YewTube.png
-Section: Internet
-Filename: debs/YewTube-v1.0.1.deb
-Depiction: https://imnotsatan.github.io/depictions/org.mtmdev.YewTube.html
-Icon: https://imnotsatan.github.io/icons/org.mtmdev.YewTube.png
-Size: 538
-MD5sum: f230b8dbcaf21cc26e53f06fa2a9e396
-SHA1: 7233242fbd28ebd5f249560511ce58970a9a8900
-SHA256: 6d43708cb9880cefbfa9cffc4705f4ea9631d7d93311d73202ee0f406674c7c9
-SHA521: 19b577652b92713da3716de28702dbb4905c4615fb9b32e9659d7066771f301d5e09cb0cee8f8ddd8e26279d6a7ecad52bf16c6058c8bc005d8fda7dbb07063d
-
 Homepage: http://ultrasn0w.com/
 Package: ultrasn0w
 Name: ultrasn0w
@@ -123,24 +124,23 @@ SHA1: 2c64727ab2cbc1255f9a4440bed0b82dcffe91eb
 SHA256: 840be08b5b8eab7b9c0d3820472004d1d7adc38bb0ed1a75600f396697fad1f1
 SHA521: 60aef1e52eb6310899ebb632e3ab556109fad09359380e753dec3a470a59c7a11b8f8bda75f315db3bdb7d1a16dbb84b35b8138c63655af3a820a571f9f5e480
 
-Package: mobilesubstrate
+Package: org.mtmdev.YewTube
+Name: YewTube
+Version: 1.0.1
+Depends: firmware (>= 5.0), appsync
 Architecture: iphoneos-arm
-Name: Mobile Substrate
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/mobilesubstrate/
-Depends: com.saurik.substrate.safemode
-Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110)
-Priority: optional
-Version: 0.9.3998
-Description: powerful code insertion platform
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Section: System
-Filename: debs/mobilesubstrate.deb
-Depiction: https://imnotsatan.github.io/depictions/mobilesubstrate.html
-Icon: https://imnotsatan.github.io/icons/mobilesubstrate.png
-Size: 99738
-MD5sum: 347721bf79af7f2858c1e6a7368540fe
-SHA1: 1359c0ef80e5a33f7c6c3bfb18b067ba3991b5bb
-SHA256: ef121cdd3de50318d3d4ba7c2cd9fbb259da20eeeda21983f57956d80a2c00c0
-SHA521: 524a8e81ed754a417c62178a2971be3dee4cb2c759b135c29e0ade2e4b6e357300f2e096f66b1c1804a61c5d843dc45e02bd2412c70e9a88c5e67f7ae0cb6469
+Description: A YouTube client made in Objective-C utilizing the power of Invidious.
+Homepage: http://mtmdev.org
+Maintainer: Electimon <electimon@gmail.com>
+Author: Electimon <electimon@gmail.com>
+Icon: http://2pwn.tk/dev/icons/YewTube.png
+Section: Internet
+Filename: debs/YewTube-v1.0.1.deb
+Depiction: https://imnotsatan.github.io/depictions/org.mtmdev.YewTube.html
+Icon: https://imnotsatan.github.io/icons/org.mtmdev.YewTube.png
+Size: 538
+MD5sum: f230b8dbcaf21cc26e53f06fa2a9e396
+SHA1: 7233242fbd28ebd5f249560511ce58970a9a8900
+SHA256: 6d43708cb9880cefbfa9cffc4705f4ea9631d7d93311d73202ee0f406674c7c9
+SHA521: 19b577652b92713da3716de28702dbb4905c4615fb9b32e9659d7066771f301d5e09cb0cee8f8ddd8e26279d6a7ecad52bf16c6058c8bc005d8fda7dbb07063d
 

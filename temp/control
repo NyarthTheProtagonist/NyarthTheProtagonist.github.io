@@ -1,12 +1,11 @@
-Package: mobilesubstrate
+Package: org.mtmdev.YewTube
+Name: YewTube
+Version: 1.0.1
+Depends: firmware (>= 5.0), appsync
 Architecture: iphoneos-arm
-Name: Mobile Substrate
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/mobilesubstrate/
-Depends: com.saurik.substrate.safemode
-Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110)
-Priority: optional
-Version: 0.9.3998
-Description: powerful code insertion platform
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Section: System
+Description: A YouTube client made in Objective-C utilizing the power of Invidious.
+Homepage: http://mtmdev.org
+Maintainer: Electimon <electimon@gmail.com>
+Author: Electimon <electimon@gmail.com>
+Icon: http://2pwn.tk/dev/icons/YewTube.png
+Section: Internet
