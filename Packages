@@ -103,3 +103,44 @@ SHA1: 7233242fbd28ebd5f249560511ce58970a9a8900
 SHA256: 6d43708cb9880cefbfa9cffc4705f4ea9631d7d93311d73202ee0f406674c7c9
 SHA521: 19b577652b92713da3716de28702dbb4905c4615fb9b32e9659d7066771f301d5e09cb0cee8f8ddd8e26279d6a7ecad52bf16c6058c8bc005d8fda7dbb07063d
 
+Homepage: http://ultrasn0w.com/
+Package: ultrasn0w
+Name: ultrasn0w
+Version: 1.2.7
+Architecture: iphoneos-arm
+Description: iPhone Dev Team's iPhone 4, 3G and 3GS software unlock, now with added PwnApple.  Compatible with iPhone 4 baseband 01.59.00 and iPhone 3G/3GS basebands 04.26.08, 05.11.07, 05.12.01, 05.13.04 and 06.15.00!  Thanks to @sherif_hashim and @Oranav for contributing baseband crashes.
+Maintainer: Dev Team <blog@iphone-dev.org>
+Author: Dev Team <blog@iphone-dev.org>
+Section: Utilities
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.3209-1), firmware (<< 5.0) | mobilesubstrate (>= 0.9.3900)
+Conflicts: blacksn0w, yellowsn0w, gsc.wildcat
+Filename: debs/ultra9.deb
+Depiction: https://imnotsatan.github.io/depictions/ultrasn0w.html
+Icon: https://imnotsatan.github.io/icons/ultrasn0w.png
+Size: 14564
+MD5sum: 017e776a541bc7a46f6f18a8aa304cf5
+SHA1: 2c64727ab2cbc1255f9a4440bed0b82dcffe91eb
+SHA256: 840be08b5b8eab7b9c0d3820472004d1d7adc38bb0ed1a75600f396697fad1f1
+SHA521: 60aef1e52eb6310899ebb632e3ab556109fad09359380e753dec3a470a59c7a11b8f8bda75f315db3bdb7d1a16dbb84b35b8138c63655af3a820a571f9f5e480
+
+Package: mobilesubstrate
+Architecture: iphoneos-arm
+Name: Mobile Substrate
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+Depends: com.saurik.substrate.safemode
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110)
+Priority: optional
+Version: 0.9.3998
+Description: powerful code insertion platform
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Section: System
+Filename: debs/mobilesubstrate.deb
+Depiction: https://imnotsatan.github.io/depictions/mobilesubstrate.html
+Icon: https://imnotsatan.github.io/icons/mobilesubstrate.png
+Size: 99738
+MD5sum: 347721bf79af7f2858c1e6a7368540fe
+SHA1: 1359c0ef80e5a33f7c6c3bfb18b067ba3991b5bb
+SHA256: ef121cdd3de50318d3d4ba7c2cd9fbb259da20eeeda21983f57956d80a2c00c0
+SHA521: 524a8e81ed754a417c62178a2971be3dee4cb2c759b135c29e0ade2e4b6e357300f2e096f66b1c1804a61c5d843dc45e02bd2412c70e9a88c5e67f7ae0cb6469
+
