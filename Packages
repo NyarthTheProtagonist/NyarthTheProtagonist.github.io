@@ -124,6 +124,26 @@ SHA1: 2c64727ab2cbc1255f9a4440bed0b82dcffe91eb
 SHA256: 840be08b5b8eab7b9c0d3820472004d1d7adc38bb0ed1a75600f396697fad1f1
 SHA521: 60aef1e52eb6310899ebb632e3ab556109fad09359380e753dec3a470a59c7a11b8f8bda75f315db3bdb7d1a16dbb84b35b8138c63655af3a820a571f9f5e480
 
+Homepage: http://ultrasn0w.com/
+Package: ultrasn0w
+Name: ultrasn0w
+Version: 1.2.8
+Architecture: iphoneos-arm
+Description: iPhone Dev Team's iPhone 4, 3G and 3GS software unlock, now with added PwnApple.  Compatible with iPhone 4 baseband 01.59.00 and iPhone 3G/3GS basebands 04.26.08, 05.11.07, 05.12.01, 05.13.04 and 06.15.00!  Thanks to @sherif_hashim and @Oranav for contributing baseband crashes.
+Maintainer: Dev Team <blog@iphone-dev.org>
+Author: Dev Team <blog@iphone-dev.org>
+Section: Utilities
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.3209-1), firmware (<< 5.0) | mobilesubstrate (>= 0.9.3900)
+Conflicts: blacksn0w, yellowsn0w, gsc.wildcat
+Filename: debs/ultrasn0w_1.2.8_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/ultrasn0w.html
+Icon: https://imnotsatan.github.io/icons/ultrasn0w.png
+Size: 15238
+MD5sum: 11be21a4d635cd8a9d68c81f2616fb03
+SHA1: d860e8717bd5e4d5253296c9fb2058ebcb227884
+SHA256: 287a9439a41e85336d38d45ff1560edf35d2aa09eeb14585c2e4a25328fe31b5
+SHA521: babd0d28d02ff9741ee4a1fbb5876d0286d13356d181097652399589ffe7f696e9a549d87391e4016bd6c08fdf6ee6bdc3ffadfd81f3e8f6e31c053d69c54083
+
 Package: org.mtmdev.YewTube
 Name: YewTube
 Version: 1.0.1
